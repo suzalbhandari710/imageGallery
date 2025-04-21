@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #9D00FF;
+    margin: 8px;
+    /* display: inline-block; */
+}
+img{
+    width: 250px;
+}
